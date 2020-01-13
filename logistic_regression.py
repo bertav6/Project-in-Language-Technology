@@ -17,7 +17,6 @@ def read_lines(file):
     """
     f = open(file).read().strip()
     sentences = f.split('\n\n')
-    #print(sentences) #all the text
     return sentences
 
 def split_lines(lines, column_names):
@@ -29,9 +28,7 @@ def split_lines(lines, column_names):
     :return:
     """
     for line in lines:
-        #print(line) #all the text
         rows = line.split('\n')
-        #print(rows) # ['row1', 'row2', etc] ['id,off', 'id,not', ...]
         line = [dict(zip(column_names, row.split('\t'))) for row in rows]
     return line
 
