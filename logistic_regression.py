@@ -53,9 +53,7 @@ def split_lines2(lines, column_names):
     :param column_names:
     :return:
     """
-    #print(lines) #all the text
     rows = lines.split('\n')
-    #print(rows) # ['row1', 'row2', etc] ['id,off', 'id,not', ...]
     line = [dict(zip(column_names, row.split(','))) for row in rows]
 
     return line
@@ -71,9 +69,9 @@ def one_hot_encode(list_of_tweets, token_index):
             results[i, index] = 1.
     return results
 
-train_file = '/Users/bertavinas/PycharmProjects/Proves/olid-training-v1.0.tsv'
-test_file = '/Users/bertavinas/PycharmProjects/Proves/testset-levela.tsv'
-test_labels_a = '/Users/bertavinas/PycharmProjects/Proves/labels-levela.csv'
+train_file = 'olid-training-v1.0.tsv' #set the train file path
+test_file = 'testset-levela.tsv' #set the test file path
+test_labels_a = 'labels-levela.csv' #set the test labels file path
 column_names = ['id', 'tweet', 'subtask_a', 'subtask_b', 'subtask_c']
 column_names_test = ['id', 'tweet']
 lines = read_lines(train_file)
