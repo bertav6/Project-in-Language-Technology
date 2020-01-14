@@ -2,7 +2,17 @@
 
 This project is about the development of a system for identifying and categorizing offensive language in social media, specifically Twitter. The project is based on SemEval 2020 Task 6, which is the second iteration of the OffensEval task organized at SemEval 2019. For this task, the Offensive Language Identification dataset (OLID) is used. The dataset contains English tweets annotated using a hierarchical three-level annotation model. For the development of the project, some different models were trained. This project is based on the Sub-task A, which consists of classifying tweets in Offensive and Not Offensive.
 
+The baseline of the project is implementing a Logistic Regression classifier, which corresponds to the file *logistic_regression.py*. The rest of the project consists in implementing different deep learning models, which corresponds to the jupyter notebook *deep_learning.ipynb*.
+
+There are also two example of how to run different machine learning models.
+
 ## Getting Started
+
+Logistic Regression:
+
+To run the program it is necessary to install the sklearn python module.
+
+Deep Learning models:
 
 To run the programm, it is necessary to run the *First steps* section in the jupyter notebook. It imports all the needed modules to run the system.
 
@@ -10,15 +20,20 @@ This code was run in Google CoLab. It is recommended to run the code in CoLab du
 
 ### Prerequisites
 
+Logistic Regression:
+To run the program it is necessary to install:
+- Sklearn python module.
+
+Deep Learning models:
 To run the program it is necessary to install:
 - Keras python module.
 - Sklearn python module.
 
-You also need to download the dataset and the embedding files.
+You also need to download the dataset and the embedding files. This files are stored in the *Dataset* and *embeddings* directories.
 
 ## Running the program
 
-The python notebook is organized in different sections:
+For the Deep Learning models, the python notebook is organized in different sections:
 - First steps
 - Data preprocessing
 - Pre-trained word embeddings
