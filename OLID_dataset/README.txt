@@ -8,7 +8,7 @@ https://scholar.harvard.edu/malmasi/olid
 
 1) DESCRIPTION
 
-This is the README file for OLID described in: https://arxiv.org/abs/1902.09666
+This is the README file for OLID described in: https://arxiv.org/abs/1902.09666.
 
 OLID contains 14,100 annotate tweets. It has been used as the official dataset for OffensEval: Identifying and Categorizing Offensive Language in Social Media (SemEval 2019 - Task 6): https://competitions.codalab.org/competitions/20011
 
