@@ -4,7 +4,9 @@ This project is about the development of a system for identifying and categorizi
 
 The baseline of the project consists of implementing a Logistic Regression classifier, which corresponds to the file *logistic_regression.py*. The rest of the project consists of implementing different deep learning models, which corresponds to the jupyter notebook *deep_learning.ipynb*.
 
-There are also two examples of how to run different machine learning models in the files: *deep_learning_example1.ipynb* and *deep_learning_example2.ipynb*.
+There are also two examples of how to run different machine learning models:
+- Example for LSTM model in file *deep_learning_example1.ipynb*.
+- Example for CNN (3 filters) model in file *deep_learning_example2.ipynb*.
 
 ## Getting Started
 
