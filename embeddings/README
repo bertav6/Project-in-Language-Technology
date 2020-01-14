@@ -1,0 +1,3 @@
+
+The pre-trained word embeddings cannot be updated due to their size. You need to download them from this webpage: https://nlp.stanford.edu/projects/glove/. Then underneath “Download pre-trained word vectors,” you can choose any of the four options for different sizes or training datasets.
+I have chosen the Wikipedia 2014 + Gigaword 5 vectors. You can download those exact vectors at http://nlp.stanford.edu/data/glove.6B.zip (WARNING: THIS IS A 822 MB DOWNLOAD)
