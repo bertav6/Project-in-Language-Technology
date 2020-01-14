@@ -2,7 +2,7 @@
 
 This project is about the development of a system for identifying and categorizing offensive language in social media, specifically Twitter. The project is based on SemEval 2020 Task 6, which is the second iteration of the OffensEval task organized at SemEval 2019. For this task, the Offensive Language Identification dataset (OLID) is used. The dataset contains English tweets annotated using a hierarchical three-level annotation model. For the development of the project, some different models were trained. This project is based on the Sub-task A, which consists of classifying tweets in Offensive and Not Offensive.
 
-The baseline of the project is implementing a Logistic Regression classifier, which corresponds to the file *logistic_regression.py*. The rest of the project consists in implementing different deep learning models, which corresponds to the jupyter notebook *deep_learning.ipynb*.
+The baseline of the project consists of implementing a Logistic Regression classifier, which corresponds to the file *logistic_regression.py*. The rest of the project consists in implementing different deep learning models, which corresponds to the jupyter notebook *deep_learning.ipynb*.
 
 There are also two example of how to run different machine learning models.
 
