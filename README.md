@@ -29,7 +29,7 @@ To run the program it is necessary to install:
 - Keras python module.
 - Sklearn python module.
 
-You also need to download the dataset and the embedding files. This files are stored in the *Dataset* and *embeddings* directories.
+You also need to download the dataset and the embedding files. The dataset is stored in the *Dataset* directory. The embedding files cannot be upload because of their size. To download them follow the steps in the README file in the *embeddings* directory.
 
 ## Running the program
 
