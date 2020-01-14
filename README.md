@@ -14,7 +14,7 @@ To run the program it is necessary to install the sklearn python module.
 
 Deep Learning models:
 
-To run the programm, it is necessary to run the *First steps* section in the jupyter notebook. It imports all the needed modules to run the system.
+To run the program, it is necessary to run the *First steps* section in the jupyter notebook. It imports all the needed modules to run the system.
 
 This code was run in Google CoLab. It is recommended to run the code in CoLab due to the high computational cost. 
 
@@ -29,7 +29,7 @@ To run the program it is necessary to install:
 - Keras python module.
 - Sklearn python module.
 
-You also need to download the dataset and the embedding files. The dataset is stored in the *OLID_dataset* directory. The embedding files cannot be upload because of their size. To download them follow the steps in the README file in the *embeddings* directory.
+You also need to download the dataset and the embedding files. The dataset is stored in the *OLID_dataset* directory. The embedding files cannot be uploaded because of their size. To download them follow the steps in the README file in the *embeddings* directory.
 
 ## Running the program
 
@@ -42,7 +42,7 @@ For the Deep Learning models, the python notebook is organized in different sect
 
 The program has to be run like the following. First, run the *First steps* code. Then, the *Data preprocessing* and the *Pre-trained word embeddings*. The next section is divided into different cells, which each cell corresponds to the initialization of a model. From all the cells, you only need to run the one related to the model you want to try. After running one of the several models, you need to run directly the code in the *Evaluating Deep Learning models* section. This final section will plot the results of the trained model using the validation and test dataset.
 
-If you want to try an Ensemble model, you need to run first the models you want to ensemble. After running each model you have to save it in a list. To make predictions with the Ensemble model, follow the code in the subsection *Prediction for ensembling models*.
+If you want to try an Ensemble model, you need to first run the models you want to ensemble. After running each model you have to save it in a list. To make predictions with the Ensemble model, follow the code in the subsection *Prediction for ensembling models*.
 
 ## License
 
